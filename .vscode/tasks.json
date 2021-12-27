@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildui",
+            "type": "shell",
+            "command": "pyside6-uic",
+            "args": [
+                "./src/ui/main.ui",
+                "-o",
+                "./src/ui/main.py",
+            ],
+            "group": "build",
+            "presentation": {
+                // Reveal the output only if unrecognized errors occur.
+                "reveal": "always"
+            },
+        }
+    ]
+}

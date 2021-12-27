@@ -1,0 +1,30 @@
+name: 2019 RAM 5.7L ZF8HP75 3.21
+info:
+    year: 2019
+    manufacturer: RAM
+    model: RAM
+    engine: 5.7L 
+    extra: 
+engine:
+    idle_rpm: 750
+    max_rpm: 5800
+    peak_hp_rpm: 5600
+    peak_torque_rpm: 3950
+transmission:
+    name: ZF8HP75 
+    gears: {
+        "1st": 5.0000,
+        "2nd": 3.2000,
+        "3rd": 2.1429,
+        "4th": 1.7200,
+        "5th": 1.3139,
+        "6th": 1.0000,
+        "7th": 0.8221,
+        "8th": 0.6400,
+    }
+    reverse_ratio: 3.4560
+    stall_rpm: 2200
+drivetrain:
+    axle_ratio: 3.21
+    transfer_case_ratio: 2.64
+    tire_diameter: "275/55R20"
