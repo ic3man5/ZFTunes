@@ -4,7 +4,7 @@ import subprocess
 import pathlib
 
 from config.manager import ConfigManager
-from vehicle.formulas import calc_oss_from_mph, calc_engine_rpm_from_oss, Tire, to_ordinal_number
+from vehicle.formulas import to_ordinal_number
 
 
 from vehicle import vehiclebuilder
