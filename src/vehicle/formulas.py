@@ -38,6 +38,10 @@ def calc_engine_rpm_from_oss(oss, trans_gear_ratio):
     """Calculates engine RPM from transmission OSS"""
     return oss * trans_gear_ratio
 
+def calc_oss_from_engine_rpm(rpm, trans_gear_ratio):
+    """Calculates transmission OSS from engine RPM"""
+    return rpm / trans_gear_ratio
+
 if __name__ == "__main__":
     tire = Tire("LT275/55R20")
     axle_ratio = 3.21
